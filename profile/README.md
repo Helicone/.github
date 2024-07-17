@@ -33,4 +33,4 @@
 
 ## Learn more
 
-See the [Helicone Docs](https://docs.helicone.ai/getting-started/quick-start)for more details.
+See the [Helicone Docs](https://docs.helicone.ai/getting-started/quick-start) for more details.

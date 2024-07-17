@@ -27,7 +27,7 @@
       <img src="https://img.shields.io/badge/License-Apache%20V2.0-red.svg?style=flat-square" alt="Apache V2.0">
       <a href="https://www.ycombinator.com/companies/helicone"><img src="https://img.shields.io/badge/Y%20Combinator-W23-orange?style=flat-square" alt="Y Combinator W23"></a>
       <a href="https://www.npmjs.com/package/@helicone/helicone"><img src="https://img.shields.io/npm/v/@helicone/helicone?style=flat-square&label=npm+@helicone/helicone" alt="helicone npm package"></a>
-      <a href="https://www.npmjs.com/package/@helicone/prompts"><img src="https://img.shields.io/npm/v/@helicone/helicone?style=flat-square&label=npm+@helicone/prompts" alt="helicone prompt npm package"></a>
+      <a href="https://www.npmjs.com/package/@helicone/prompts"><img src="https://img.shields.io/npm/v/@helicone/prompts?style=flat-square&label=npm+@helicone/prompts" alt="helicone prompt npm package"></a>
    </div>
 </div>
 </br>

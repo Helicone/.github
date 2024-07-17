@@ -24,7 +24,7 @@
    <br/>
    <br/>
    <div>
-      <img src="https://img.shields.io/badge/License-MIT-red.svg?style=flat-square" alt="MIT License">
+      <img src="https://img.shields.io/badge/License-Apache%20V2.0-red.svg?style=flat-square" alt="Apache V2.0">
       <a href="https://www.ycombinator.com/companies/helicone"><img src="https://img.shields.io/badge/Y%20Combinator-W23-orange?style=flat-square" alt="Y Combinator W23"></a>
       <a href="https://www.npmjs.com/package/@helicone/helicone"><img src="https://img.shields.io/npm/v/helicone?style=flat-square&label=npm+helicone" alt="helicone npm package"></a>
    </div>

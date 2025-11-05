@@ -9,33 +9,54 @@
       <a href="https://www.npmjs.com/package/@helicone/prompts"><img src="https://img.shields.io/npm/v/@helicone/prompts?style=flat-square&label=npm+@helicone/prompts" alt="helicone prompt npm package"> </a>
    </div>
    <h3>
-         <a href="https://docs.helicone.ai/getting-started/quick-start">
-            <strong>Get started in less than 1 minute</strong>
-         </a>
-      </h3>
+      <a href="https://docs.helicone.ai/getting-started/quick-start">
+         <strong>Get started in less than 1 minute</strong>
+      </a>
+   </h3>
    <div>
-      <h3>
-         <a href="https://us.helicone.ai/signup">
-            Sign up
-         </a> · 
-         <a href="https://docs.helicone.ai/getting-started/quick-start#explore-features">
-            Features
-         </a> · 
-         <a href="https://www.helicone.ai/contact">
-            Talk to us
-         </a>
-      </h3>
-   </div>
-   <br />
-   <div>
-      🕸️ Fully open-source 🔌 Single line integration 🕵🏻‍♀️ Trace, monitor, and observe every LLM request
-      👌🏽 Track cost, latency, quality, and more 🚏 Model management, response caching, rate limits, and routing with our AI Gateway
-      📈 Export to Pothog for custom dashboards ✍🏼 Prompt management & playground  🚀 Single-click deployment 
-      🧑🏻‍⚖️ Run evals with LLM-as-Judge and human annotations ✅ Enterprise compliant
-   </div>
-   
+   <h4>
+      <a href="https://us.helicone.ai/signup">
+         Sign up
+      </a> · 
+      <a href="https://docs.helicone.ai/getting-started/quick-start#explore-features">
+         Features
+      </a> · 
+       <a href="https://helicone.ai/models">
+         Models
+      </a> · 
+      <a href="https://www.helicone.ai/contact">
+         Talk to us
+      </a>
+   </h4>
 </div>
-</br>
+</div>
+
+## 🔌 Integrate today
+```javascript
+import { OpenAI } from "openai";
+
+const client = new OpenAI({
+  baseURL: "https://ai-gateway.helicone.ai",
+  apiKey: process.env.HELICONE_API_KEY
+});
+
+const response = await client.chat.completions.create({
+  model: "claude-4.5-haiku", // Or 100+ other models - helicone.ai/models
+  messages: [{ role: "user", content: "Hello, world!" }],
+});
+```
+
+## ⚡️ Why integrate?
+<ul style="list-style-type: none;">
+   <li>Single line integration (just change the <code>baseUrl</code>)</li>
+   <li>Observability by default - trace, monitor, and observe every LLM</li>
+   <li>Automatic failover (no more 429s!)</li>
+   <li>Always pick the cheapest provider</li>
+   <li>Model management, response caching, rate limits, and model routing</li>
+   <li>Prompt management, versioning, and playground</li>
+   <li>Export to Pothog for custom dashboards</li> 
+   <li>Enterprise compliant</li>
+</ul>
 
 ## Learn more
 
